@@ -1,0 +1,62 @@
+
+.backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+}
+
+.tableWrapper{
+position: relative;
+ max-width: 100%;
+ left:0px ;
+ top:10px ;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(73, 213, 127);
+}
+
+.heading{
+background-color: blueviolet;
+color: white;
+text-align: center;
+/* display: flex;
+justify-content: space-between;
+align-items:stretch; */
+padding: 10px;
+width:100%;
+}
+
+.personalCabInfo{
+    color: black;
+    width: 100%;
+}
+
+.mainRequestInfo{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.mainRequestInfo th{
+      padding-left:20px ;
+
+
+}
+
+.coursesInfo{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left:15px ;
+
+}
+

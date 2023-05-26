@@ -1,0 +1,55 @@
+.main{
+  margin: 0 auto;
+  background-color: rgb(198, 198, 248);
+  padding: 0 20px 20px 20px ;
+  text-align: center;
+  display: inline-block;
+}
+
+h1{
+  text-align: center;
+}
+.forUsers{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0 150px;
+}
+
+.toBeaTutor{
+  background:rgb(98, 219, 205) ;
+  color: black;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius:10px ;
+}
+
+.toBeaStudent{
+  background:rgb(60, 5, 92) ;
+  color: white;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius:10px ;
+
+}
+
+
+.main-image {
+    padding-top:80px ;
+    width: 60%;
+    height: 20rem;
+    z-index: 1;
+    /* overflow:; */
+  }
+
+  .main-image img {
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+    transform: rotateZ(-7deg) translateY(-2rem) translateX(5rem);
+  }
+
+  /* .forUsers{
+   background-image: url('');
+
+  } */

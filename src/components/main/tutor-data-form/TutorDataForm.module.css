@@ -1,0 +1,69 @@
+.backdrop {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+}
+.form{
+    position: relative;
+    padding: 5px;
+    max-height: 80%;
+    max-width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:rgb(60, 5, 92) ;
+    border-radius:5px;
+    /* align-items: left; */
+    left:550px ;
+    top:10px ;
+    z-index: 1;
+    color: white;
+
+}
+
+
+label{
+    margin-bottom:15px ;
+    max-width: fit-content;
+    justify-content:flex-center;
+}
+
+input, select{
+    margin-bottom:15px ;
+    height:40px ;
+}
+input:valid{
+    border: 2px solid black;
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+input:invalid:required{
+    border: 2px solid orangered;
+}
+.subjectOptions, .level{
+    min-width: 60%;
+    margin-top:  5px;
+    border-radius:5px ;
+}
+
+.aboutYourself{
+    margin-bottom:15px ;
+    min-height:350px ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    cursor: auto;
+
+}
+.closeBtn{
+    max-width: 150px;
+    max-height: 30px;
+    background: green;
+        align-items: center;
+}

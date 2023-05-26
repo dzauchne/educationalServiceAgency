@@ -1,0 +1,30 @@
+header{
+    background: rgb(93, 93, 187);
+     margin: 0 auto;
+     max-width: 100%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+
+.navButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  list-style: none;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+header li{
+    margin-left:55px ;
+}
+header a{
+    color: white;
+    text-decoration:none ;
+    margin-left:25px ;
+    padding-top: 40px;
+}
+
+.header a:hover{
+    color: rgb(56, 168, 128);
+}

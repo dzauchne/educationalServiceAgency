@@ -1,0 +1,42 @@
+
+/* .circle{
+    inline-size: 25ch;
+    aspect-ratio: 1;
+    border-radius: 50%;
+} */
+.beingSomeTutors{
+    background:rgb(216, 156, 232) ;
+    max-width: 70%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding:20px ;
+    border-radius:10px ;
+    text-align: left;
+    left:50px ;
+    top:50px ;
+    z-index: 1;
+  }
+
+ .catalogueBtn{
+  text-align: center;
+  }
+
+  .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.closeSection{
+  display: inline-block;
+  text-align: right;
+  align-items: right;
+
+}

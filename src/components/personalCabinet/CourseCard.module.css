@@ -1,0 +1,28 @@
+
+.profileCard{
+    
+    margin: 0 auto;
+    max-width: 100%;
+    background-image: linear-gradient(25deg,#f26365,#ee4758 50%);
+    position:relative;
+    top:-250px;
+    right:-220px ;
+    z-index: 1;
+    color: black;
+
+  }
+.userDataItem{
+  color: black;
+}
+  .userDataItem ul {
+    list-style: none;
+    padding: 1.5rem;
+  }
+
+  .userDataItem li {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+  }

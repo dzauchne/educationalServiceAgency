@@ -1,0 +1,95 @@
+/* .login {
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  background: rgb(203, 157, 231);
+
+} */
+form{
+  padding: 10px;
+  max-width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(193, 236, 193);
+  border-radius:5px;
+  align-items: center;
+  max-height: 100%;
+  position: relative;
+  left:650px ;
+  top:250px ;
+  z-index: 1; }
+
+.actions {
+  text-align: center;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.closingCross{
+  display: inline-block;
+text-align: right;
+}
+.login {
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 3rem;
+}
+
+.control {
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.control label,
+.control input {
+  display: block;
+}
+
+.control label {
+  font-weight: bold;
+  flex: 1;
+  color: #222222;
+  margin-bottom: 1rem;
+}
+
+.control input {
+  flex: 3;
+  font: inherit;
+  padding: 0.4rem 0.4rem;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+}
+
+.control input:focus {
+  outline: none;
+  border-color: #0649a0;
+  background: #94bcf0;
+}
+
+.control.invalid input {
+  border-color: red;
+  background: #dfc1c1;
+}
+
+.actions {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .control {
+    align-items: center;
+    flex-direction: row;
+  }
+}
